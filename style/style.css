@@ -1,0 +1,153 @@
+@import "normalize.css";
+
+body {
+	background-color: #7c93b7;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+
+ul {
+	list-style-type: none;	
+}
+
+.content {
+	margin: 0 20px;
+	padding: 0;	
+	text-align: left;
+	color: #dce0e5;
+}
+
+.title-banner {
+	padding-bottom: 10px;
+}
+
+.header-section {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.item-game {
+	width: 80%;
+	max-width: 500px;
+	height: 100px;
+	margin: 10px 0px;
+
+	border-radius: 5px 15px 5px 5px;
+}
+
+.item-game .game-title {
+	position: relative;
+	font-size: 25px;
+	left: 5px;
+	top: 70px;
+	color: #00000000;
+}
+
+.item-game:hover .game-title {
+	color: #FFFFFFFF;
+}
+
+.item-game a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 100px;
+	position: relative;
+	top: -35px;
+}
+
+
+/* * * * *
+ * GAMES *
+ * * * * */
+
+.game-tumbleseed {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url(http://www.tumbleseed.com/presskit/TumbleSeed_Banner_Forest.jpg);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-tumbleseed:hover {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+		url(http://www.tumbleseed.com/presskit/TumbleSeed_Banner_Forest.jpg);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-race-the-sun {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url(http://flippfly.com/wp-content/uploads/2015/07/ScreenShot1.png);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-race-the-sun:hover {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+		url(http://flippfly.com/wp-content/uploads/2015/07/ScreenShot1.png);
+
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-organ-trail{
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url(http://hatsproductions.com/wp-content/uploads/OrganTrail_Game_MasterArt.png);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-organ-trail:hover {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+		url(http://hatsproductions.com/wp-content/uploads/OrganTrail_Game_MasterArt.png);
+
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-manifold-garden{
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url(http://manifold.garden/img/content/screenshots/ManifoldGarden_Screenshot_16.png);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-manifold-garden:hover {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+		url(http://manifold.garden/img/content/screenshots/ManifoldGarden_Screenshot_16.png);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-battle-chef-brigade{
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url(http://www.trinketstudios.com/press/battle_chef_brigade/images/07_BCB.png);
+
+	background-position: center;
+	background-size: 100%;
+}
+
+.game-battle-chef-brigade:hover {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+		url(http://www.trinketstudios.com/press/battle_chef_brigade/images/07_BCB.png);
+
+	background-position: center;
+	background-size: 100%;
+}
